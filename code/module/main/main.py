@@ -4,14 +4,14 @@ import sys
 import cv2
 import os
 
-from Serial import ChassisController
-from rfid import RFIDReader
-from yolo_detect import YoloDetector
-from oled import OLEDDisplay      
-from broadcast import Broadcaster 
-from line_detect import LineTracker
-from odometry import Odometry
-from topo_map import TopoMap
+from code.serial.Serial import ChassisController
+from code.rfid.rfid import RFIDReader
+from code.module.detect.yolo_detect import YoloDetector
+from code.oled.oled import OLEDDisplay      
+from code.sound.broadcast import Broadcaster 
+from code.down_detect.line_detect import LineTracker
+from code.module.odometry import Odometry
+from code.map.topo_map import TopoMap
 from navigator import Navigator
 
 

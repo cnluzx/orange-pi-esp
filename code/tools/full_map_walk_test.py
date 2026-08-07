@@ -16,10 +16,10 @@ from dataclasses import dataclass
 
 import cv2
 
-from Serial import ChassisController
+from code.serial.Serial import ChassisController
 from line_detect import LineTracker
-from navigator import Navigator
-from topo_map import TopoMap
+from code.module.map.navigator import Navigator
+from code.map.topo_map import TopoMap
 
 
 SRC_DIR = os.path.dirname(os.path.abspath(__file__))

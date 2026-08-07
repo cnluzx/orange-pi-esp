@@ -9,7 +9,7 @@ import time
 
 import cv2
 
-from line_detect import DEFAULT_MODEL, LineTracker
+from code.down_detect.line_detect import DEFAULT_MODEL, LineTracker
 
 
 def env_bool(name: str, default: bool) -> bool:

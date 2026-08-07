@@ -10,8 +10,8 @@ from dataclasses import dataclass
 
 import cv2
 
-from Serial import ChassisController
-from line_detect import LineTracker
+from code.serial.Serial import ChassisController
+from code.down_detect.line_detect import LineTracker
 
 
 @dataclass
